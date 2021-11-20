@@ -1,38 +1,52 @@
 # 14-BikeSharing
 
-## Tableau Public
+## Purpose of the analysis is well defined. (5 pt)
 
-Tableau Public allows is used to create visualizations that are easy to read and understand. Everything that is worked on with Tableau Public occurs on the local computer.
+For this analysis, we have used Pandas to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, all the visualiztions are created:
 
-## Tableau Server
+    1. The length of time that bikes are checked out for all riders and genders
+    2. The number of bike trips for all riders and genders for each hour of each day of the week
+    3. The number of bike trips for each type of user and gender for each day of the week.
 
-Tableau Server is used to privately share the visualizations with others. You can create your visualizations locally in Tableau Public and then you can upload your visualizations to Tableau Server.
+## Results:
 
-## Worksheets
+The following visualizations are created for:
+    1. How long bikes are checked out for all riders and genders.
+    2. How many trips are taken by the hour for each day of the week, for all riders and genders.
+    3. A breakdown of what days of the week a user might be more likely to check out a bike, by type of user and gender.
 
-Worksheets are the building blocks of our visualizations from which we are able to create dashboards and stories. A worksheet is made up of a single graph or plot, which we will learn how to create later on. Worksheets are customizable, but require almost no actual code.
+![Checkout Times for Users](images/Checkout%20Times%20for%20Useres.jpg)
 
-## Data Pane
+The visualiztion shows the length of time that bikes are checked out for all riders.
 
-picture of Data Pane
+![Checkout Times by Gender](images/Checkout%20Times%20by%20Gender.jpg)
 
-## Analytics Pane
+The visualiztion shows the length of time that bikes are checked out for each gender.
 
-picture of Analytics Pane
+![Trips by Weekday per Hour](images/Trips%20by%20Weekday%20per%20Hour.jpg)
 
-## Data Visualization Process
-When creating Tableau stories, or data visualizations in general, there's a general process that should be followed. You can use this process for most visualizations you'll create.
+ The visualiztion shows the number of bike trips by weekday for each hour of the day as a heatmap.
 
-### Select your questions. 
+![Trips by Gender (Weekday per Hour)](images/Trips%20by%20Gender%20(Weekday%20per%20Hour).jpg)
 
-During this step, you'll consider which results you want to share with your audience. What do they want to see? How can we use that information to make their decision-making process easier?
+ The visualiztion shows the number of bike trips by gender for each hour of each day of the week as a heatmap.
 
-### Execute independent research. 
+![Trips by Gender by Weekday](images/Trips%20by%20Gender%20by%20Weekday.jpg)
 
-You'll need to look at other relevant pieces of information to build a bigger picture. Search other sources to find information that will make your visualization more powerful.
-### Craft your Tableau story. 
+ The visualiztion shows a heatmap that shows the number of bike trips broken down by gender for each day of the week by each Usertype.
 
-This is when you create your story, primarily from worksheets and other visuals, with descriptions for each of them.
-### Create a written analysis. 
+![Top Starting Locations](images/Top%20Starting%20Locations.jpg)
 
-The written analysis is intended to provide additional insight into what we're trying to convey to our audience. This is a good place to add extra detail so that everyone can get on the same page.
+ The visualiztion shows the top starting locations.
+
+![Top Ending Locations](images/Top%20Ending%20Locations.jpg)
+
+ The visualiztion shows the top ending locations.
+ 
+## Summary:
+
+There is a high-level summary of the results and two additional visualizations are suggested for future analysis (5 pt)
+
+## The link to the dashboard:
+
+https://public.tableau.com/app/profile/shantal.jambotkar/viz/NYCCitiBikeChallange/NYCBikeChallange?publish=yes
