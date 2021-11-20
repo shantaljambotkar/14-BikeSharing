@@ -45,7 +45,15 @@ The visualiztion shows the length of time that bikes are checked out for each ge
  
 ## Summary:
 
-There is a high-level summary of the results and two additional visualizations are suggested for future analysis (5 pt)
+This analysis is to convince investors that a bike-sharing program in Des Moines is a solid business proposal. 
+
+![Future Analysis 1](images/Future%20Analysis%201.jpg)
+
+Since the peak hours are between 8 am to 10 am and 5 pm to 7 pm - number of rides can be increased here to make sure that the bikes are available for everyone to ride.
+
+![Future Analysis 2](images/Future%20Analysis%202.jpg)
+
+The bikes that need maintainance and when to plan them is shown in the visualization
 
 ## The link to the dashboard:
 
