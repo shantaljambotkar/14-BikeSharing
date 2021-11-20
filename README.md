@@ -1,12 +1,12 @@
 # 14-BikeSharing
 
-## Purpose of the analysis is well defined. (5 pt)
+## Purpose of the analysis
 
 For this analysis, we have used Pandas to change the "tripduration" column from an integer to a datetime datatype. Then, using the converted datatype, all the visualiztions are created:
 
-    1. The length of time that bikes are checked out for all riders and genders
-    2. The number of bike trips for all riders and genders for each hour of each day of the week
-    3. The number of bike trips for each type of user and gender for each day of the week.
+1. The length of time that bikes are checked out for all riders and genders
+2. The number of bike trips for all riders and genders for each hour of each day of the week
+3. The number of bike trips for each type of user and gender for each day of the week.
 
 ## Results:
 
